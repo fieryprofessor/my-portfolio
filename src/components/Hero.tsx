@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Download, Mail } from 'lucide-react';
+import { ArrowDown, Mail } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -46,7 +46,7 @@ const Hero = () => {
 
           <div className="flex justify-center space-x-8 text-gray-500 mb-16">
             <div className="text-center">
-              <div className="text-2xl font-bold text-gray-900">5+</div>
+              <div className="text-2xl font-bold text-gray-900">7+</div>
               <div className="text-sm">Projects Completed</div>
             </div>
             <div className="text-center">
@@ -60,7 +60,7 @@ const Hero = () => {
           onClick={() => scrollToSection('about')}
           className="animate-bounce text-gray-400 hover:text-blue-600 transition-colors duration-300"
         >
-          <ArrowDown size={32} />
+          <ArrowDown size={64} />
         </button>
       </div>
     </section>

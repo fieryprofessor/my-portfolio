@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, ArrowRight } from 'lucide-react';
+import { ExternalLink, Github} from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -50,6 +50,22 @@ const Projects = () => {
       tags: ['Html','CSS','Javascript'],
       liveUrl: 'https://calculator-19aq.vercel.app/',
       githubUrl: 'https://github.com/fieryprofessor/calculator'
+    },
+    {
+      title: ' Employee Salary Prediction Web App',
+      description: 'A full-stack ML web app was built to classify whether an employee earns more or less than $50K annually using multiple classification algorithms.',
+      image: 'employeesalarypredictionproject.jpg',
+      tags: ['React','Vite','Tailwind CSS','Chart.js','Node.js','venv','JSON','Python','pandas','numpy','Flask','Scikit-learn','XGBoost'],
+      liveUrl: 'https://employee-salary-prediction-frontend.vercel.app/',
+      githubUrl: 'https://github.com/fieryprofessor/EmployeeSalaryPrediction'
+    },
+    {
+      title: 'Static Wordpress Website(EnviroHealthTests)',
+      description: 'Developed a static WordPress website for EnviroHealthTests using Elementor, delivering a fast, secure, and lightweight user experience. The site was built and tested locally with XAMPP and deployed as optimized static HTML files.',
+      image: 'envirohealthtests.png',
+      tags: ['Wordpress','Elementor Plugin','XAMPP','Apache Server'],
+      liveUrl: 'https://envirohealthtestsbyom.page.gd/',
+      githubUrl: '#'
     },
   ];
 

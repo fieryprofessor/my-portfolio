@@ -20,8 +20,10 @@ const Skills = () => {
       title: 'Backend Development',
       skills: [
         { name: 'Node.js', level: 90 },
+        { name: 'Flask', level: 70 },
         { name: 'Express.js', level: 90 },
         { name: 'MongoDB', level: 80 },
+        { name: 'SQL', level: 40 },
         { name: 'RestFul APIS', level: 70 },
         { name: 'Thunder Client', level: 90 },
       ]
@@ -29,9 +31,22 @@ const Skills = () => {
     {
       title: 'Design & Tools',
       skills: [
-        { name: 'UI/UX Design', level: 70 },
+        { name: 'UI/UX Design', level: 50 },
         { name: 'Git/GitHub', level: 100 },
         { name: 'Gmail', level: 100 },
+      ]
+    },
+    {
+      title: 'Artifical Intelligence and Machine Learning',
+      skills: [
+        { name: 'Python', level: 90 },
+        { name: 'Numpy', level: 80 },
+        { name: 'Pandas', level: 80 },
+        { name: 'Matplotlib', level: 70 },
+        { name: 'Scikit-learn', level: 70 },
+        { name: 'Jupyter Notebook', level: 90 },
+        { name: 'AI/ML Concepts', level: 60 },
+        { name: 'Machine Learning Techniques', level: 60 },
       ]
     },
     {
@@ -41,7 +56,9 @@ const Skills = () => {
         { name: 'Java', level: 95 },
         { name: 'Problem Solving', level: 95 },
         { name: 'Vercel', level: 80 },
-        { name: 'Render', level: 80 },
+        { name: 'Wordpress', level: 80 },
+        { name: 'Elementor Plugin', level: 90 },
+        { name: 'XAMPP(Apache Server)', level: 60 },
       ]
     },
 
