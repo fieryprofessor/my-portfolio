@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github,Linkedin,Instagram} from 'lucide-react';
+import { Mail, MapPin, Send, Github,Linkedin,Instagram} from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -31,12 +31,6 @@ const Contact = () => {
       title: 'Email',
       value: 'ninjaplays792020@gmail.com',
       link: 'mailto:ninjaplays792020@gmail.com'
-    },
-    {
-      icon: <Phone className="w-6 h-6" />,
-      title: 'Phone',
-      value: '+91 8603957088',
-      link: 'tel:+91 8603957088'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
